@@ -17,6 +17,7 @@ public:
 		static char str[64]{}; 
 		sprintf_s(str, "Failed with HRESUL : %08X\n", result); 
 		return str;
+
 	}
 };
 
